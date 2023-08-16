@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>RR-Security</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <div>
+            <h1>RR-Security</h1>
+
+            <h2>Sobre</h2>
+    
+            <p>O SGIS (Sistema de Gestão de Segurança da informação) é um assunto que vem ganhando muita força nos últimos tempos nas organizações, muito deve-se ao fato
+            delas aderirem a tecnologia cada vez mais em suas rotinas corporativas, visto que elas tem uma ganho de produtividade, eficiência e redução dos custos operacionais. 
+            Contudo as empresas brasileiras vem sofrendo nesse aspecto, pois no ano de 2022 quase 70% das companhias sofreram algum tipo de ataque cibernético, tendo isso 
+            em vista desenvolvemos o RR-Security.</p>
+    
+            <p>Nosso principal objetivo é auxiliar as empresas que estão em fase de desenvolvimento da SGIS, através de um Web site, queremos reunir todas as informações
+            a respeito do tema, assim, conseguiremos ajudar essas empresas á implementar o SGIS de uma forma mais solida.</p>
+        </div>
+        <div>
+            <h2>Desenvolvedores</h2>
+
+            <p>Régis Morais do Nascimento RA 202302382673</p>
+            <p>Rodrigo Bonturi da Rocha Filho RA 20230238</p> 
+        </div>
+    </body>
+</html>
