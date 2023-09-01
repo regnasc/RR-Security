@@ -114,5 +114,59 @@ body{
     width: 1000px;
     position: relative;
     left: 900px;
-    top: -667px;
+    top: -738px;
 }
+.atividade-da-empresa{
+    text-align: center;
+    background-color: #233032;
+    color: white;
+    height: 669px;
+}
+.atividade-da-empresa div{
+    position: relative;
+    left: 1000px;
+    padding-top: 100px;
+    height: 500px;
+    width: 800px;
+    font-size: 25px;
+}
+.atividade-da-empresa img{
+    width: 1000px;
+    position: relative;
+    right: 530px;
+    top: -500px;
+}
+.atividade-da-empresa p{
+    padding-top: 60px;
+}
+.cases{
+    height: 800px;
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    background-image: url(../assents/imagem\ de\ fundo\ case.jpg) ;
+    background-size: 2000px;
+    background-attachment: fixed;
+}
+.cases img{
+    width: 600px;
+    height: 450px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.cases h3{
+    color: #2e2e2e;
+    padding-top:70px;
+    font-weight: none;
+}
+.rodape{
+    background-color: #233032;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.rodape p{
+    padding-top: 10px;
+}
+ 
