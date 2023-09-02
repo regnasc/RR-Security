@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <title>Contato</title>
@@ -15,9 +16,78 @@
             <a href="index.html">HOME</a>
             <a href="SGIS.html">SGIS</a>
             <a href="cases.html">CASES</a>
-            <a href="Contato.html">CONTATO</a>
+            <a href="Contato.php">CONTATO</a>
         </div>
         <div class="contato">
             <h1>CONTATO</h1>
+        </div>
+        <div class="formulario">
+            <h2>Enviei os dados da sua organizaçõa para a gente</h2>
+            <h3>Queremos entender seu negócio. Envie seus dados para nós, para que um consultor entre em contato para desecobir a melhor solução para seu problema!</h3>
+            <div class="box">
+                <form action="enviar_dados.php" method="post">
+                    <fieldset>
+                        <legend><b>Fórmulario de Clientes</b></legend>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelinput">Nome do Resposável</label>
+                            <br><br>
+                        </div>
+                            <label for="data_nascimento"><b>Data de Nascimento do Responsável:</b></label>
+                            <input type="date" name="data_nascimento" id="data_nascimento" required>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="nome_empresa" id="nome_empresa" class="inputUser" required>
+                            <label for="nome_empresa" class="labelinput">Nome da Empresa</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="nome" class="labelinput">Email</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelinput">Telefone</label>
+                        </div>
+                        <br><br>
+                        <p>Porte da Empresa:</p>
+                        <br>
+                        <input type="radio" id="grande" name="porte" value="grande" required>
+                        <label for="grande">Grande</label>
+                        <br>
+                        <input type="radio" id="medio" name="porte" value="medio" required>
+                        <label for="medio">Médio</label>
+                        <br>
+                        <input type="radio" id="pequeno" name="porte" value="pequeno" required>
+                        <label for="pequeno">Pequeno</label>
+                        <br><br><br>
+                        <div class="inputBox">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelinput">Cidade</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <label for="estado" class="labelinput">Estado</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                            <label for="endereco" class="labelinput">Endereço</label>
+                        </div>
+                        <br><br>
+                        <input type="submit" name="submit" id="submit">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="rodape">
+            <h2>Desenvolvedores</h2>
+            <p>Régis Morais do Nascimento RA 202302382673</p>
+            <p>Rodrigo Bonturi da Rocha Filho RA 202302381073</p>
+            <p>Kadmiel Morais Vera RA 202302382517</p>
+            <p>Todos os direitos reservados para a SK2R - Gestão da Segurança da Informação</p>
         </div>
     </body>
