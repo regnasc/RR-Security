@@ -1,3 +1,24 @@
+<?php
+
+if(isset($_POST['submit']))
+{
+    include_once('config.php');
+
+    $nome = $_POST['nome'];
+    $data = $_POST['data_nascimento'];
+    $nome_empresa = $_POST['nome_empresa'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $porte = $_POST['porte'];
+    $cidade = $_POST['cidade'];
+    $estado = $_POST['estado'];
+    $endereco = $_POST['endereco'];
+
+    $result = mysqli_query($conexao, "INSERT INTO empresas(nome_responsavel,data_responsavel,nome_empresa,email,telefone,porte,cidade,estado,endereco) 
+    VALUES('$nome', '$data', '$nome_empresa', '$email',  '$telefone', '$porte', '$cidade', '$estado', '$endereco')");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -16,7 +37,7 @@
             <a href="index.html">HOME</a>
             <a href="SGIS.html">SGIS</a>
             <a href="cases.html">CASES</a>
-            <a href="contato.html">CONTATO</a>
+            <a href="contato.php">CONTATO</a>
         </div>
         <div class="contato">
             <h1>CONTATO</h1>
@@ -25,7 +46,7 @@
             <h2>Enviei os dados da sua organizaçõa para nós</h2>
             <h3>Queremos entender seu negócio. Envie seus dados para nós, para que um consultor entre em contato para desecobir a melhor solução para seu problema!</h3>
             <div class="box">
-                <form action="enviar_dados.php" method="post">
+                <form action="contato.php" method="post">
                     <fieldset>
                         <legend><b>Fórmulario de Clientes</b></legend>
                         <br>
