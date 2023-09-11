@@ -8,6 +8,7 @@
 body{
     width: 100%;
     overflow-x: hidden;
+    max-hidth: 1200px;
 }
 .topo{
     background-color: white;
