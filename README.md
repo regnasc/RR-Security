@@ -13,3 +13,7 @@ Nosso objetivo com esse projeto é fazer um software que vai ligar empresas que 
 ## Matérias e Métodos 
 
  Para a elaboração do projeto será realizado um estudo sobre o tema, tendo como fundamentação teórica artigos cientificos, depoimentos de especialistas, estudo de caso e entre outros, tendo essas informçãoes em mãos, começaremos a desenvolver o nosso web site. Para o desevolvimento do nosso projeto utilizaremos o Visual Studio Code com as linguagens HTML e CSS.
+ 
+ ## Proposta de Design 
+ Antes de darmos inicio a criação do nosso projeto utilizamos o figma para elaborar a proposta de design inicial do nosso site, confira a baixo nossa proposta:
+ ![Proposta de Design](https://github.com/regnasc/RR-Security/assets/132789669/f63cae2c-cd57-46f3-a186-cd95188c27ba)
