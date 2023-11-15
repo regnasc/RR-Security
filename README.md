@@ -16,4 +16,7 @@ Nosso objetivo com esse projeto é fazer um software que vai ligar empresas que 
  
  ## Proposta de Design 
  Antes de darmos inicio a criação do nosso projeto utilizamos o figma para elaborar a proposta de design inicial do nosso site, confira a baixo nossa proposta:
+ 
  ![Proposta de Design](https://github.com/regnasc/RR-Security/assets/132789669/f63cae2c-cd57-46f3-a186-cd95188c27ba)
+
+ Acesse o link para visualizar a proposta completa do nosso site: https://www.figma.com/file/rimleQRxJ91Cx19mnBMLsO/Proposta-de-Design?type=design&node-id=0%3A1&mode=design&t=gGnNIdQA8Hbd51rH-1
